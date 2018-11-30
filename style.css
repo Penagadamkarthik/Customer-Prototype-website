@@ -1,0 +1,141 @@
+body{ 
+background-image: url(laptop.png);
+margin:0;
+}
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightcyan;
+    overflow-x: hidden;
+    padding-top: 2n0px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+    display: block;
+    font-family:sans-serif;
+}
+
+
+.sidenav a:hover {
+    color: red;
+}
+.sidenav1 {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav1 a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+    display: block;
+    font-family:sans-serif;
+}
+
+.sidenav1 a:hover {
+    color: skyblue;
+}
+.main {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: aqua/* Same as the width of the sidenav */
+}
+.menu{
+    width:100%;
+    background-color: yellow;
+    overflow:auto;
+}
+.menu ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    line-height:60px;
+}
+.menu li{
+    float:right;
+}
+.menu ul li a{
+    background-color: blue ;
+    text-decoration:none;
+    width:130px;
+    display:block;
+    text-align:center;
+    color:#f2f2f2;
+    font-size:18px;
+    font-family:sans-serif;
+    letter-spacing:0.5px;
+}
+.menu li a:hover {
+    color:aqua;
+    opacity:0.5;
+    font-size:19px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.search-form{
+    margin-top:15px;
+    float:right;
+    margin-right:100px;
+}
+input[type=text]{
+    padding:7px;
+    border:none;
+    font-family:sans-serif;
+}
+button{
+    float:right;
+    background:red;
+    color:white;
+    border-radius:0 5px 5px 0;
+    cursor:pointer;
+    position:relative;
+    padding:7px;
+    font-family:sans-serif
+    border:none;
+    font-size:16px;
+    
+}
+ footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+header {
+    padding: 3.3em;
+    font-size: 30px;
+    color: black;
+background-image:url(laptop.png);
+    clear: left;
+    text-align: center;
+    border: 3px black ridge;
+    margin: 25px;
+}
+img{
+width: 150;
+height: 150;
+border-style: double;
+border-color: black;
+float: left;
+}

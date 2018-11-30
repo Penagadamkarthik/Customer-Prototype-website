@@ -1,0 +1,26 @@
+#the form
+{
+Color : white ;
+display : table ;
+padding : 15 px;
+background-color : gold;
+border : solid 2px black;
+}
+
+.row
+{
+display : table-row;
+}
+.row lable 
+{
+display : table-cell;
+padding : 2 px ;
+text-align : right ;
+
+}
+
+.row input
+{
+display : table-cell ;
+padding : 2 px
+}
